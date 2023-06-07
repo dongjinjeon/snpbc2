@@ -1,0 +1,38 @@
+{
+    "nodeAddr":     "host.docker.internal",
+    "wsPort":       10646,
+    "startBlock":   0,
+    "endBlock":     "latest",
+    "quiet":        true,
+    "syncAll":      true,
+    "patch":        true,
+    "patchBlocks":  100,
+    "bulkSize":     100,
+    "settings": {
+        "symbol": "ACT",
+        "name": "ACT_COIN",
+        "title": "ACT Coin Block Explorer",
+        "author": "Elaine, Cody, Hackmod, Bakon",
+        "contact": "mailto:ethereumclassicanthony@gmail.com",
+        "about": "This is an open source Blockchain Explorer.",
+        "rss": "https://ethereumclassic.org",
+        "reddit": "https://www.reddit.com/r/EthereumClassic",
+        "twitter": "https://twitter.com/eth_classic",
+        "linkedin": "https://www.linkedin.com/company/ethereum-classic",
+        "github": "https://github.com/ethereumclassic",
+        "logo": "/img/explorer-logo.png",
+        "copyright": "2019 &copy; Ethereum Classic.",
+        "poweredbyCustom": false,
+        "poweredbyEtcImage": "/img/powered-by-etcexplorer-w.png",
+        "poweredbyEtc": true,
+        "tokenList": "tokens.json",
+        "useRichList": true,
+        "useFiat": true,
+        "miners": {
+            "0x6624688a9294571ea8376f2ba26c4fd450a5c1ab": "ACT",
+            "0xc47a9ba83ef32d136bc8f623f4225237ff7bcfd7": "GGOM",
+            "0xfd078fb1ad8580126718f4b398ac52d7267f9d1d": "ONE",
+            "0x324bdd8f3e37ce5e41bfb397a42c2276ad753280": "HEINI"
+         }
+    }
+}

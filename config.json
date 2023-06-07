@@ -1,0 +1,16 @@
+{
+  "environment": "live",
+  "debug": false,
+  "Captcha": {
+    "secret": "6Lds5PcaAAAAABX8z32r78RQ_mRrLpaRLmbydPTF"
+  },
+  "Ethereum": {
+    "EtherToTransfer": "1000",
+    "gasLimit": "42000",
+    "live": {
+      "rpc": "https://main.dorenscan.com",
+      "account": "0x72d6424dbc29fc63eda6af9742d0ebadb57717c6",
+      "privateKey": "db05a28dce1d898e283035b52de726c1143412774dadcfb886ff9c0fb228ad11"
+    }
+  }
+}

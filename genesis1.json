@@ -1,0 +1,56 @@
+{
+    "name": "ethereum",
+    "engine": {
+      "authorityRound": {
+        "params": {
+          "blockReward": "0x4563918244F40000",
+          "stepDuration": "1",
+          "validators": {
+            "list": [
+              "0x6ec63098aa253fe2d1c003d88f8bbadd6807ff0c",
+              "0x72d6424dbc29fc63eda6af9742d0ebadb57717c6",
+              "0x4436631695258e3a3c441db151ee054b3e1e06d4",
+              "0xfdc352aa9a01688284f42d29c009db55370c17ea"
+            ]
+          }
+        }
+      }
+    },
+  
+    "params": {
+      "gasLimitBoundDivisor": "0x400",
+      "maximumExtraDataSize": "0x20",
+      "minGasLimit": "0x1388",
+      "networkID": "0xd06",
+      "eip155Transition": 0,
+      "validateChainIdTransition": 0,
+      "eip140Transition": 0,
+      "eip211Transition": 0,
+      "eip214Transition": 0,
+      "eip658Transition": 0
+    },
+    "genesis": {
+      "seal": {
+        "authorityRound": {
+          "step": "0x0",
+          "signature": "0x0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        }
+      },
+      "difficulty": "0x10",
+      "gasLimit": "0x2625A00"
+    },
+    "accounts": {
+    "0x0000000000000000000000000000000000000001": { "balance": "1", "builtin": { "name": "ecrecover", "pricing": { "linear": { "base": 3000, "word": 0 } } } },
+    "0x0000000000000000000000000000000000000002": { "balance": "1", "builtin": { "name": "sha256", "pricing": { "linear": { "base": 60, "word": 12 } } } },
+    "0x0000000000000000000000000000000000000003": { "balance": "1", "builtin": { "name": "ripemd160", "pricing": { "linear": { "base": 600, "word": 120 } } } },
+    "0x0000000000000000000000000000000000000004": { "balance": "1", "builtin": { "name": "identity", "pricing": { "linear": { "base": 15, "word": 3 } } } },
+    "0x6ec63098aa253fe2d1c003d88f8bbadd6807ff0c": {
+      "balance": "100000000000000000000000000000000"
+    },
+    "0x72d6424dbc29fc63eda6af9742d0ebadb57717c6": {
+      "balance": "90000000000000000000000000000000000"
+    }
+  }
+}
+
+  
